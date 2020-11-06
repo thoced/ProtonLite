@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <Pane BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="textArea" style="-fx-background-color: #000000;" />
+         </children>
+      </Pane>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="137.0" prefWidth="478.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="bImporOperator" layoutX="6.0" layoutY="14.0" mnemonicParsing="false" onAction="#OnActionImportOperator" text="Importer operateur" />
+            <Button fx:id="bViewTables" layoutX="5.0" layoutY="56.0" mnemonicParsing="false" onAction="#OnViewTables" prefHeight="25.0" prefWidth="117.0" text="View tables" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
